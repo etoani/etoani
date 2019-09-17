@@ -373,13 +373,14 @@ span.underline {
 .dropdown {
   position: relative;
   display: inline-block;
-  -webkit-border-radius: 4px 4px 4px 0px;
-  border-radius: 4px 4px 4px 0px;
+  -webkit-border-radius: 0px 0px 4px 4px;
+  border-radius: 0px 0px 4px 4px;
 }
 
-.dropbtn::after{
-  content: "<i class="fas fa-caret-down"></i>"
-}
+
+/* .dropbtn::after{ */
+/*   content: "<i class="fas fa-caret-down"></i>" */
+/* } */
 
 /* Dropdown Content (Hidden by Default) */
 .dropdown-content {
@@ -435,7 +436,7 @@ span.underline {
 /*---------------------------------------------------------
  4. Main Content
 -------------------------------------------------------- */
-/*------ banner ------ */
+/*------ gateway banner ------ */
 .welcome-text {
   position: relative;
   z-index: 9;
@@ -452,6 +453,26 @@ span.underline {
   font-size: 16px;
 }
 .welcome-text .button {
+  margin: 0 10px;
+}
+
+/*------ subpage banner ------ */
+.subpage-welcome-text {
+  position: relative;
+  z-index: 9;
+  padding: 80px 0 100px 0;
+}
+.subpage-welcome-text h1 {
+  margin-bottom: 30px;
+  color: white;
+}
+.subpage-welcome-text h4 {
+  color: white;
+  margin-bottom: 30px;
+  line-height: 26px;
+  font-size: 16px;
+}
+.subpage-welcome-text .button {
   margin: 0 10px;
 }
 
@@ -592,6 +613,7 @@ span.underline {
 
 /* sidebar navigation */
 .side-nav {
+  margin-right: 0px;
   background-color: #AFAFB7;
   color: #D9f4fd;
   float: left;

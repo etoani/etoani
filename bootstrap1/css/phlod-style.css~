@@ -592,6 +592,7 @@ span.underline {
 
 /* sidebar navigation */
 .side-nav {
+  margin-right: 0px;
   background-color: #AFAFB7;
   color: #D9f4fd;
   float: left;
