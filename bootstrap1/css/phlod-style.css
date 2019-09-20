@@ -487,8 +487,8 @@ span.underline {
     margin-left: 0px;
 }
 .core-section .post-content{
-    margin-left: auto;
     padding: 1rem;
+    float: right;
 }
 /*------ services ------ */
 #indexes {
@@ -629,11 +629,12 @@ span.underline {
 .side-nav {
   color: #fdfffe;
   background-color: #859cab;
-  height: 100%;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: overlay;
+  scrollbar-width: thin;
+  scrollbar-gutter: stable;
   border: 2px solid #fdfffe;
-  
+  height:100%;
 }
 
 .side-nav-inside {
@@ -647,10 +648,10 @@ span.underline {
     background: rgba(0, 0, 0, 0.1);
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
     .side-nav.sticky {
 	position: fixed;
-	top: 1rem;
+	top: 0rem;
     }
 }
 
@@ -726,8 +727,12 @@ span.underline {
   padding: 10px;
   outline: 0;
   margin-bottom: 30px;
+
 }
 
+.contact-section {
+<!--    float: right;-->
+}
 .go-top {
   margin-top: 100px;
 }

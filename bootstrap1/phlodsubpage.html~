@@ -97,42 +97,6 @@
         <div class="side-nav-inside">
           thing6
         </div>
-        <div class="side-nav-inside">
-          thing1
-        </div>
-        <div class="side-nav-inside">
-          thing2
-        </div>
-        <div class="side-nav-inside">
-          thing3
-        </div>
-        <div class="side-nav-inside">
-          thing4
-        </div>
-        <div class="side-nav-inside">
-          thing5
-        </div>
-        <div class="side-nav-inside">
-          thing6
-        </div>
-        <div class="side-nav-inside">
-          thing1
-        </div>
-        <div class="side-nav-inside">
-          thing2
-        </div>
-        <div class="side-nav-inside">
-          thing3
-        </div>
-        <div class="side-nav-inside">
-          thing4
-        </div>
-        <div class="side-nav-inside">
-          thing5
-        </div>
-        <div class="side-nav-inside">
-          thing6
-        </div>
       </div>
 
 
@@ -143,11 +107,12 @@
     </div>
 
   </div>
+</div>
 </section>
 <span class="underline"></span>  
 <!-- CONTACT US -->
 <section id="contact" class="page-section">
-  <div class="container contact-section">
+  <div class="container">
     <div class="row">
       <div class="col-md-12 text-center space40">
         <h4>Feel free to send us a message about anything!</h4>
@@ -194,23 +159,23 @@
 <script src="js/vendor/jquery-1.10.2.min.js"></script>
 <script src="js/plugins.js"></script>
 <script src="js/main.js"></script>
-<!-- <script> -->
-<!--   function setNavbar() { -->
-<!--     if ($(document).scrollTop() > 390) { -->
-<!--   $('.side-nav').addClass('sticky'); -->
-<!--    } else { -->
-<!--   $('.side-nav').removeClass('sticky'); -->
-<!-- } -->
-<!--  } -->
-<!--  $(document).ready(function(){ -->
-<!--     setNavbar(); -->
+<script>
+  function setNavbar() {
+    if ($(document).scrollTop() > 160) {
+     $('.side-nav').addClass('sticky');
+   } else {
+     $('.side-nav').removeClass('sticky');
+   }
+ }
+ $(document).ready(function(){
+    setNavbar();
            
-<!--     $(window).scroll(function() { -->
-<!--       setNavbar(); -->
-<!--     }); -->
+    $(window).scroll(function() {
+      setNavbar();
+    });
 
-<!--   }); -->
-<!-- </script> -->
+  });
+</script>
 
 </body>
 </html>

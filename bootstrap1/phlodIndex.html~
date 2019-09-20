@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Φλοδ Greek</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/owl-carousel.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/phlod-style.css">
+    <script src="js/vendor/modernizr-2.6.2.min.js"></script>
+</head>
+<body>
+
+    <!-- SITE HEADER -->
+    <header class="site-top" id="top">
+        <div class="site-top-overlay"></div>
+        <div class="site-header">
+            <div class="container">
+                <a href="#" class="site-brand">
+                    <h1>Φλοδ Greek</h1>
+                </a>
+                <div class="main-navigation">
+                    <a href="#" class="visible-xs toggle-menu"><i class="fa fa-bars"></i></a>
+                    <nav class="site-navigation">
+                        <ul>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#groups">Functional Areas</a></li>
+                            <li><a href="#indexes">Indexes</a></li>
+                            <li><a href="#posts">Posts</a></li>
+                            <li><a href="#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div> <!-- .main-navigation -->
+            </div>
+        </div> <!-- .site-header -->
+
+        <div class="welcome-text">
+            <div class="container text-center white-text">
+             <div class="col-xs-8 col-xs-offset-2">
+                <h1>Φλοδ Greek</h1>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- .site-top -->
+
+<!-- functional groups -->
+<section class="page-section">
+    <div class="container">
+        <div class="row" id="groups" >
+            <div class="col-md-3 col-sm-6">
+                <div class="post-inside">
+                    <div class="post-thumb">
+                        <img src="images/caryatid.jpg" alt="Caryatid Statue">
+                    </div>
+                    <div class="post-content">
+                        <h5><a href="nounIndex.html">Nouns</a></h5>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6">
+                <div class="post-inside">
+                    <div class="post-thumb">
+                        <img src="images/fight.jpg" alt="Fight scene from parthon carvings">
+                    </div>
+                    <div class="post-content">
+                        <h5><a href="verbIndex.html">Verbs</a></h5>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="post-inside">
+                    <div class="post-thumb">
+                        <!-- source: https://commons.wikimedia.org/wiki/File:Propylaea_-_Athens_142.jpg -->
+                        <img src="images/architecture.jpg" alt="Parthenon Architecture">
+                    </div>
+                    <div class="post-content">
+                        <h5><a href="grammarIndex.html">Grammar</a></h5>
+
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+                <div class="post-inside">
+                    <div class="post-thumb">
+                        <img src="images/astrolabe2.jpg" alt="Astrolabe">
+                    </div>
+                    <div class="post-content">
+                        <h5><a href="toolIndex.html">Tools</a></h5>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="about">
+    <div class="container">
+        <div class="row">
+        <span class="underline"></span>
+              <div class="col-xs-8 col-xs-offset-2 text-center">
+                <h2>Φλοδ Greek is me working back through introductory greek.</h2>
+                <span class="underline"></span>
+                <h4>Along the way I want to make some nice tools so that people can learn greek more quickly and effectivley.</h4>
+            </div>
+        </div>
+        <span class="underline"></span>
+	</div>
+</section>
+<section class="posts">
+	<div class="container">
+        <div class="row">
+            <div class="col-xs-8 col-xs-offset-2 text-center">
+                <h4>Below are pages that index posts, either by the order I write them, or in the order of one of the reference texts.</h4>
+                <span class="underline"></span>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<!-- Functinal groups -->
+
+
+<!-- Indexes to posts -->
+<section class="page-section">
+    <div class="container">
+        <div class="row" id="indexes" >
+            <div class="row">
+                <div class="col-md-3 col-sm-6">
+                   <div class="post-inside">
+                        <div class="post-thumb">
+                            <img src="images/groton.jpg" alt="Groton Book">
+                        </div>
+                        <div class="post-content">
+                            <h5><a href="groton.html">Groton Index</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="post-inside">
+                        <div class="post-thumb">
+                            <img src="images/marshall.jpg" alt="Personal Notes">
+                        </div>
+                        <div class="post-content">
+                            <h5><a href="mainIndex.html">Posts By Time</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="post-inside">
+                        <div class="post-thumb">
+                            <img src="images/mastronarde.jpg" alt="Mastronarde Book">
+                        </div>
+                        <div class="post-content">
+                            <h5><a href="mastronarde.html">Mastronarde Index</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <div class="post-inside">
+                        <div class="post-thumb">
+                            <img src="images/books.jpg" alt="Stack of Books">
+                        </div>
+                        <div class="post-content">
+                            <h5><a href="biblio.html">Biblography</a></h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CONTACT US -->
+<section id="contact" class="page-section">
+    <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center space40">
+                    <h4>Feel free to send us a message about anything!</h4>
+                </div> 
+            </div> 
+            <div class="row">
+                <form action="#" method="post" class="contact-form" id="templatemo-contact">
+                    <fieldset class="col-md-4 col-sm-6">
+                        <input type="text" id="your-name" placeholder="Your Name...">
+                    </fieldset>
+                    <fieldset class="col-md-4 col-sm-6">
+                        <input type="email" id="email" placeholder="Your Email...">
+                    </fieldset>
+                    <fieldset class="col-md-4 col-sm-12">
+                        <input type="text" id="your-subject" placeholder="Subject...">
+                    </fieldset>
+                    <fieldset class="col-md-12 col-sm-12">
+                        <textarea name="message" id="message" cols="30" rows="5" placeholder="Leave your message..."></textarea>
+                    </fieldset>
+                    <fieldset class="col-md-12 col-sm-12">
+                        <input type="submit" class="button big default" value="Send Message">
+                    </fieldset>
+                </form>
+            </div>
+            <div class="text-center">
+                <a href="#" class="button default go-top">Go to Top</a>
+            </div>
+        </div>
+</section>
+
+<!-- SITE-FOOTER -->
+<footer class="site-footer">
+    <div class="container text-center">
+
+        <div class="row">
+            <div class="col-md-12">
+                <p class="copyright-text">Copyright © 2019 A Marshall</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="js/vendor/jquery-1.10.2.min.js"></script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
