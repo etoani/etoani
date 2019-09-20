@@ -386,6 +386,8 @@ span.underline {
 .dropdown-content {
   display: none;
   position: absolute;
+  left: 10rem;
+  top: 0rem;
 }
 
 .dropdown:hover {
@@ -393,7 +395,10 @@ span.underline {
 }
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content{
-  display: block;
+    display: block;
+    postition: absolute;
+    left: 0rem;
+    top: 2.35rem;     
  }
 .dropdown:hover .dropdown-content a{
   display: block;
@@ -427,6 +432,8 @@ span.underline {
   /* Show the dropdown menu on hover */
   .dropdown:hover .dropdown-content{
     display: block;
+    left: 10rem;
+    top: 0rem;     
   }
   .dropdown:hover .dropdown-content a{
     display: block;
@@ -476,6 +483,13 @@ span.underline {
   margin: 0 10px;
 }
 
+.core-section .container{
+    margin-left: 0px;
+}
+.core-section .post-content{
+    margin-left: auto;
+    padding: 1rem;
+}
 /*------ services ------ */
 #indexes {
   margin-bottom: 50px;
@@ -613,23 +627,33 @@ span.underline {
 
 /* sidebar navigation */
 .side-nav {
-  margin-right: 0px;
-  background-color: #AFAFB7;
-  color: #D9f4fd;
-  float: left;
+  color: #fdfffe;
+  background-color: #859cab;
   height: 100%;
-  position: relative;
   overflow-x: hidden;
   overflow-y: auto;
+  border: 2px solid #fdfffe;
+  
 }
 
-.site-nav-inside {
-  display: block;
+.side-nav-inside {
+    display: block;
+    padding: .5rem;
+    border: 1px solid #fdfffe;
+    border-left: none;
+    border-right: none;
 }
 .side-nav-inside:hover {
-
-background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.1);
 }
+
+@media screen and (min-width: 992px) {
+    .side-nav.sticky {
+	position: fixed;
+	top: 1rem;
+    }
+}
+
 /*------ call to action ------ */
 #cta {
   margin-bottom: 80px;
