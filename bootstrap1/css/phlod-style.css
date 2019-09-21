@@ -26,6 +26,7 @@
 	margin-bottom: 40px;
 }
 
+/* background colors: preferred 859CAB, higher constrast : #576f7e */
 /*---------------------------------------------------------
  1. Reset
 -------------------------------------------------------- */
@@ -173,7 +174,7 @@ body {
   font-weight: 300;
   color: #FDFFFE;
   font-family:  sans-serif;
-  background-color: #859cab;
+  background-color: #859CAB;
 }
 
 a {
@@ -230,7 +231,7 @@ h5 {
   border: 2px solid;
 }
 .button.default {
-  background: #859cab;
+  background: #859CAB;
   color: #fdfffe;
   border: 2px solid #c7ccd5;
 }
@@ -628,7 +629,7 @@ span.underline {
 /* sidebar navigation */
 .side-nav {
   color: #fdfffe;
-  background-color: #859cab;
+  background-color: #859CAB;
   overflow-x: hidden;
   overflow-y: overlay;
   scrollbar-width: thin;
@@ -742,7 +743,7 @@ span.underline {
 -------------------------------------------------------- */
 .site-footer {
   padding: 0px 0;
-  background: #859cab;
+  background: #859CAB;
   border-top: 4px solid gainsboro;
 }
 
