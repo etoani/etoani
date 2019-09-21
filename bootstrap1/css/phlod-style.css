@@ -173,8 +173,7 @@ body {
   line-height: 24px;
   font-weight: 300;
   color: #FDFFFE;
-  font-family:  sans-serif;
-  background-color: #859CAB;
+  font-family:  sans-serif; background-color: #859CAB;
 }
 
 a {
@@ -252,23 +251,7 @@ span.underline {
   font-size: 13px;
 }
 
-::-webkit-input-placeholder {
-  color: #C7CCD5;
-}
 
-:-moz-placeholder {
-  /* Firefox 18- */
-  color: #C7CCD5;
-}
-
-::-moz-placeholder {
-  /* Firefox 19+ */
-  color: #c7ccd5;
-}
-
-:-ms-input-placeholder {
-  color: #C7CCD5;
-}
 
 /*---------------------------------------------------------
  3. Header
@@ -488,8 +471,41 @@ span.underline {
     margin-left: 0px;
 }
 .core-section .post-content{
-    padding: 1rem;
+    padding-left: 2rem;
+    padding-top: 1rem;
     float: right;
+}
+
+.post-content ul, li {
+  color: white;
+  list-style-type: disc;
+}
+.post-content > li > a{
+  color: white;
+}
+.post-content ul {
+  padding-left: 2rem;
+}
+.post-content h1 {
+  padding: 1rem;
+  padding-left: 0rem;
+}
+.post-content h2 {
+  padding: .5rem;
+  padding-left: 0rem;
+}
+.post-content h4 {
+  padding: .25rem;
+  padding-left: 0rem;
+}
+.post-content p{
+  padding-top: .5rem;
+}
+.post-content   a{
+  color: #364a59;
+}
+.post-content table{
+  padding: 2rem;
 }
 /*------ services ------ */
 #indexes {
@@ -526,68 +542,6 @@ span.underline {
   border: 1px solid #6cc0f7;
   font-size: 24px;
 }
-
-.owl-carousel {
-  padding-left: 2rem;
-  padding-right: 2rem;
-  autoplayTimeout: 7000;
-}
-@media screen and (max-width: 992px) {
-  .owl-carousel {
-    padding-left: 1rem;
-    padding-right: 1rem;
-   
-  }
-}
-
-.owl-prev {
-  position: absolute;
-  top: 40%;
-  left: 0;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  margin-left: 70px;
-  background: white;
-}
-.owl-prev:after {
-  font-family: "FontAwesome";
-  content: '\f104';
-  font-size: 24px;
-}
-@media screen and (max-width: 992px) {
-  .owl-prev {
-    margin-left: 10px;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-  }
-}
-
-.owl-next {
-  position: absolute;
-  top: 40%;
-  right: 0;
-  width: 60px;
-  height: 60px;
-  line-height: 60px;
-  margin-right: 70px;
-  background: white;
-}
-.owl-next:after {
-  font-family: "FontAwesome";
-  content: '\f105';
-  font-size: 24px;
-}
-@media screen and (max-width: 992px) {
-  .owl-next {
-    margin-right: 10px;
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-  }
-}
-
 /*------ projects ------ */
 #posts {
   padding-top: 50px;
