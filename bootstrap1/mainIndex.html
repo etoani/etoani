@@ -17,64 +17,44 @@
   <script src="js/vendor/modernizr-2.6.2.min.js"></script>
 </head>
 <body>
- <!-- SITE HEADER -->
+  <!-- SITE HEADER -->
   <header class="sub-top" id="top">
-  <div w3-include-html="standard-components/subpage-header.html"></div>
+    <div w3-include-html="standard-components/subpage-header.html"></div>
 
-
-
-  <div class="subpage-welcome-text">
-    <div class="container text-center white-text">
-      <div class="col-xs-8 col-xs-offset-2">
+    <div class="subpage-welcome-text">
+     <div class="container text-center white-text">
+       <div class="col-xs-8 col-xs-offset-2">
         <h1>Φλοδ Greek Master Index</h1>
         <h4>An index of posts in the order they were written</h4>
       </div>
     </div>
-  </div>
 
-</header>
+  </header>
 
-<!-- Side bar -->
-<section class="core-section">
-  <div class="container">
-    <div w3-include-html="standard-components/post-side-nav.html"></div>
+  <!-- Side bar -->
+  <section class="core-section">
+    <div class="container">
+      <div class="row">
+        <div w3-include-html="standard-components/post-side-nav.html"></div>
 
-      <div class="col-md-9 col-sm-8 post-content ">
-        <div w3-include-html="indexPages/masterList.html"></div>
+        <div class="col-md-9 col-sm-8 post-content ">
+          <div w3-include-html="indexPages/masterList.html"></div>
         </div>
+      </div>
     </div>
-
-  </div>
-</section>
-<span class="underline"></span>  
+  </section>
+  <span class="underline"></span>  
 
   <div w3-include-html="standard-components/comment-include.html"></div>
 
   <div w3-include-html="standard-components/footer.html"></div>
 
-<script src="js/vendor/jquery-1.10.2.min.js"></script>
-<script src="js/plugins.js"></script>
-<script src="js/main.js"></script>
+  <script src="js/vendor/jquery-1.10.2.min.js"></script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
   <script src="js/includeHTML.js"> </script>
   <script> includeHTML(); </script>
-
-<!-- <script> -->
-<!--   function setNavbar() { -->
-<!--     if ($(document).scrollTop() > 390) { -->
-<!--   $('.side-nav').addClass('sticky'); -->
-<!--    } else { -->
-<!--   $('.side-nav').removeClass('sticky'); -->
-<!-- } -->
-<!--  } -->
-<!--  $(document).ready(function(){ -->
-<!--     setNavbar(); -->
-           
-<!--     $(window).scroll(function() { -->
-<!--       setNavbar(); -->
-<!--     }); -->
-
-<!--   }); -->
-<!-- </script> -->
+  <script src="js/stickySideNav.js"></script>
 
 </body>
 </html>

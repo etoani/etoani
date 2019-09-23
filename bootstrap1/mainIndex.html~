@@ -21,11 +21,13 @@
   <header class="sub-top" id="top">
   <div w3-include-html="standard-components/subpage-header.html"></div>
 
+
+
   <div class="subpage-welcome-text">
     <div class="container text-center white-text">
       <div class="col-xs-8 col-xs-offset-2">
-        <h1>Φλοδ Greek: Alpha to Omega</h1>
-        <h4>It’s all Greek to me</h4>
+        <h1>Φλοδ Greek Master Index</h1>
+        <h4>An index of posts in the order they were written</h4>
       </div>
     </div>
   </div>
@@ -38,7 +40,7 @@
     <div w3-include-html="standard-components/post-side-nav.html"></div>
 
       <div class="col-md-9 col-sm-8 post-content ">
-        <div w3-include-html="contentPages/letters.html"></div>
+        <div w3-include-html="indexPages/masterList.html"></div>
         </div>
     </div>
 
@@ -56,6 +58,23 @@
   <script src="js/includeHTML.js"> </script>
   <script> includeHTML(); </script>
 
-    <script src="js/stickySideNav.js"></script>
+<!-- <script> -->
+<!--   function setNavbar() { -->
+<!--     if ($(document).scrollTop() > 390) { -->
+<!--   $('.side-nav').addClass('sticky'); -->
+<!--    } else { -->
+<!--   $('.side-nav').removeClass('sticky'); -->
+<!-- } -->
+<!--  } -->
+<!--  $(document).ready(function(){ -->
+<!--     setNavbar(); -->
+           
+<!--     $(window).scroll(function() { -->
+<!--       setNavbar(); -->
+<!--     }); -->
+
+<!--   }); -->
+<!-- </script> -->
+
 </body>
 </html>
